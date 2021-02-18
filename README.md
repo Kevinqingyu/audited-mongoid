@@ -5,6 +5,8 @@
 
 2.模型中创建 `model` `abstract_mongodb_class.rb`
 
+3.模型中创建 `model` `audited.rb` 然后把项目中audited内容复制过去
+
 ```ruby
 class AbstractMongodbClass
 end
