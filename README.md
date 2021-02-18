@@ -1,6 +1,7 @@
 # audited-mongoid
 
 # 使用方法
+首先保证你已经安装了 `gem` `mongoid`
 
 ```ruby 
 class Model < ActiveRecord::Base
