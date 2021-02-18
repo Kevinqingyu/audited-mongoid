@@ -1,7 +1,14 @@
 # audited-mongoid
 
 # 使用方法
-首先保证你已经安装了 `gem` `mongoid`
+1.首先保证你已经安装了 `gem` `mongoid`
+
+2.模型中创建 `model` `abstract_mongodb_class.rb`
+
+```ruby
+class AbstractMongodbClass
+end
+```
 
 ```ruby 
 class Model < ActiveRecord::Base
