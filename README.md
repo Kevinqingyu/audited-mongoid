@@ -28,8 +28,8 @@ end
 ```
 
 ### 模型引入
-模型引入`audited`后`mongo`库中会自动创建一个集合`user_audit_logs`,并设置了日志的保留时间(需要在`mongo`中建立索引后生效)
-，建立索引后日志会在到期时自动删除，而无需像`ActiveRecord`版本那样手动删除以减轻对`msyql`的压力。
+模型引入`audited`后`mongo`库中会自动创建一个集合`model_audit_logs`,并设置了日志的保留时间(需要在`mongo`中建立索引后生效)
+，建立索引后日志会在到期时自动删除，而无需像`ActiveRecord`版本那样手动删除以减轻对`mysql`的压力。
 
 ```ruby
 class Model < ActiveRecord::Base
