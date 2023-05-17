@@ -1,7 +1,7 @@
 # audited-mongoid
 
 此项目是基于 `collectiveidea/audited` `ActiveRecord`版本魔改而来
-再次基础上实现了mongoid版本，且对多模型日志进行分集合存储。仅需要简单的设置即可使用。
+在此基础上实现了mongoid版本，且对多模型日志进行分集合存储。仅需要简单的设置即可使用。
 
 # 使用方法
 1.首先保证你已经安装了 mongo并启动，同时在项目中安装了 `gem` `mongoid` 
